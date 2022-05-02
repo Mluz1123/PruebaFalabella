@@ -1,0 +1,60 @@
+p {
+    margin: 0;
+}
+
+.Card {
+    background-color: rgb(200, 236, 228);
+    border: 5px solid;
+    border-image:
+        linear-gradient(#ff512f 0%, #dd2476, #1c64ff) 1;
+    animation: rotate 2.5s ease-ininfinite;
+}
+
+@keyframes rotate {
+    50% {
+        border-image:
+            linear-gradient(#ff512f 0%, #dd2476, #1c64ff) 1;
+    }
+
+}
+
+.Card__img {
+    text-align: center;
+
+}
+
+.Card__type {
+    font-family: 'Roboto',
+        sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background: cyan;
+    color: #fff;
+}
+
+.Card__name {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.Card__info {
+    text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.Card__data {
+    padding-bottom: center;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-bottom: 10px;
+}
+
+.Card__data .title {
+    font-weight: 700;
+}
